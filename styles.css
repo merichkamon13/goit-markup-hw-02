@@ -1,18 +1,22 @@
 :root{
-ftr-bg
+    --primary-accent-color: #4D5AE5;
+    --primary-black-color: #2E2F42;
+    --primary-white-color: #F4F4FD;
+    --active-link-color: #404bbf;
+    --white-color: #FFFFFF;
 }
 body{
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF ;
+    background-color: var(--white-color) ;
 }
 header{
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .link-heder-logo{
     font-family: 'Raleway' sans-serif;
     font-size: 18px;
-    color: #4D5AE5;
+    color: var(--primary-accent-color);
     line-height: 1.17;
     letter-spacing: 0.03em;
     font-weight: 800;
@@ -22,7 +26,7 @@ header{
 .heder-logo-studio{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    color: #2E2F42;
+    color: var(--primary-black-color);
     line-height: 21px;
     letter-spacing: 0.03px;
     font-weight: 800;
@@ -34,7 +38,7 @@ header{
 }
 .portfolio-list-link{
     font-family: 'Roboto', sans-serif; 
-    color: #2E2F42;
+    color: var(--primary-black-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -43,7 +47,7 @@ header{
 } 
 .portfolio-list-link:active,
 .portfolio-list-link:focus{
-color: #404bbf;
+color: var(--active-link-color);
 font-style: normal;
 text-decoration: underline;
 }
@@ -64,28 +68,28 @@ text-decoration: underline;
 }
 .adress-list-link:active,
 .adress-list-link:focus{
-    color: #404bbf;
+    color: var(--active-link-color);
 }
 .item-button{
     font-family: 'Roboto', sans-serif; 
-    color: #4D5AE5;
+    color: var(--primary-accent-color);
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04px;
     font-weight: 500;
     text-decoration: none;
     cursor: pointer;
-    background-color: #F4F4FD;
+    background-color: var(--primary-white-color);
 }
 .item-button:hover,
 .item-button:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-color);
+    background-color: var(--active-link-color);
 }
 .portfolio-title{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: #2E2F42;
+    color: var(--primary-black-color);
     line-height: 24px;
     letter-spacing: 0.02px;
     font-weight: 500;  
@@ -106,7 +110,7 @@ text-decoration: underline;
 .heder-logo-studio-footer{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    color: #F4F4FD;
+    color: var(--primary-white-color);
     line-height: 21px;
     letter-spacing: 0.03px;
     font-weight: 800;
@@ -114,7 +118,7 @@ text-decoration: underline;
     text-transform: uppercase;    
 }
 .footer-text{
-    color: #F4F4FD;
+    color: var(--primary-white-color);
     font-family: 'Roboto', sans-serif;
     font-family: 16px;
     font-style: normal;
