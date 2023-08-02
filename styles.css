@@ -1,10 +1,12 @@
-
+:root{
+ftr-bg
+}
 body{
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF ;
 }
-.header{
+header{
     color: #FFFFFF;
 }
 .link-heder-logo{
