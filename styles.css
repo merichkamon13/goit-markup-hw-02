@@ -6,7 +6,7 @@
     --contacts-color: #434455;
 }
 body{
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: var(--primary-white-color);
     color: #434455;
 }
