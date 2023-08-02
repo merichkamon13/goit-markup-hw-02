@@ -1,19 +1,18 @@
 
-
 body{
-    font-family: Roboto, Raleway, sans-serif;
-    color: #2E2F42;
-    background-color: #F5F5F5;
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF ;
 }
 .header{
     color: #FFFFFF;
 }
-.heder-logo-web{
-    font-family: 'Raleway', sans-serif;
+.link-heder-logo{
+    font-family: 'Raleway' sans-serif;
     font-size: 18px;
     color: #4D5AE5;
-    line-height: 21px;
-    letter-spacing: 0.03px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
@@ -28,33 +27,42 @@ body{
     text-decoration: none;
     text-transform: uppercase;
 }
+.portfolio-list{
+    list-style: none;
+}
 .portfolio-list-link{
     font-family: 'Roboto', sans-serif; 
     color: #2E2F42;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-weight: 500;
     text-decoration: none;
 } 
 .portfolio-list-link:active,
 .portfolio-list-link:focus{
-color: #4D5AE5;
+color: #404bbf;
 font-style: normal;
 text-decoration: underline;
 }
-.adress-list-link{
+.address{
+    font-style: normal;
+}
+.adress-list{
     font-family: 'Roboto', sans-serif; 
-    color: #2E2F42;
+    color: #434455;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
 }
+.adress-list-link{
+    text-decoration: none;
+}
 .adress-list-link:active,
 .adress-list-link:focus{
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .item-button{
     font-family: 'Roboto', sans-serif; 
@@ -92,16 +100,7 @@ text-decoration: underline;
     width: 1440px;
     height: 312px;
 }
-.heder-logo-web-footer{
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: #4D5AE5;
-    line-height: 21px;
-    letter-spacing: 0.03px;
-    font-weight: 800;
-    text-decoration: none;
-    text-transform: uppercase;
-}
+
 .heder-logo-studio-footer{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
