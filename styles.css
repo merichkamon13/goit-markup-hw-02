@@ -1,0 +1,124 @@
+
+
+body{
+    font-family: Roboto, Raleway, sans-serif;
+    color: #2E2F42;
+    background-color: #F5F5F5;
+}
+.header{
+    color: #FFFFFF;
+}
+.heder-logo-web{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #4D5AE5;
+    line-height: 21px;
+    letter-spacing: 0.03px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.heder-logo-studio{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #2E2F42;
+    line-height: 21px;
+    letter-spacing: 0.03px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.portfolio-list-link{
+    font-family: 'Roboto', sans-serif; 
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    font-weight: 500;
+    text-decoration: none;
+} 
+.portfolio-list-link:active,
+.portfolio-list-link:focus{
+color: #4D5AE5;
+font-style: normal;
+text-decoration: underline;
+}
+.adress-list-link{
+    font-family: 'Roboto', sans-serif; 
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-decoration: none;
+    font-style: normal;
+}
+.adress-list-link:active,
+.adress-list-link:focus{
+    color: #4D5AE5;
+}
+.item-button{
+    font-family: 'Roboto', sans-serif; 
+    color: #4D5AE5;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #F4F4FD;
+}
+.item-button:hover,
+.item-button:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.portfolio-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #2E2F42;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    font-weight: 500;  
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #434455;
+    line-height: 24px;
+    letter-spacing: 0.02px;   
+}
+.footer{
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+}
+.heder-logo-web-footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #4D5AE5;
+    line-height: 21px;
+    letter-spacing: 0.03px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.heder-logo-studio-footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #F4F4FD;
+    line-height: 21px;
+    letter-spacing: 0.03px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+.footer-text{
+    color: #F4F4FD;
+    font-family: 'Roboto', sans-serif;
+    font-family: 16px;
+    font-style: normal;
+    line-height: 1.5; 
+    letter-spacing: 0.02px;
+    width: 264px;
+
+}
