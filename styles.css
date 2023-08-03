@@ -6,7 +6,7 @@
     --contacts-color: #434455;
 }
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--primary-white-color);
     color: #434455;
 }
@@ -58,6 +58,33 @@ body{
 .adress-list-link:focus{
     color:#404bbf;
 }
+.hero-section{
+    background-color: var(--primary-black-color);
+}
+.hero-title{
+    font-style: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.hero-btn{
+    background-color: #4D5AE5;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
 .button-lists-items{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -72,7 +99,17 @@ body{
 .button-lists-items:focus{
     background-color: #404BBF;
 }
-.portfolio-title{
+.secont-title{
+    font-style: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size:36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-black-color);
+}
+.third-title{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
