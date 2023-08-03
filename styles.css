@@ -28,7 +28,7 @@ body{
 .list{
     list-style: none;
 }
-.header-list-item-link{
+.portfolio-link{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -36,11 +36,11 @@ body{
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
 }
-.header-list-item-link:hover,
-.header-list-item-link:focus{
+.portfolio-link:hover,
+.portfolio-link:focus{
     color: #404bbf;
 }
-.link-heder{
+.portfolio-list{
     text-decoration: none; 
 }
 .adress{
@@ -124,6 +124,12 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contacts-color);
+}
+.section-team{
+    color: #F4F4FD;
+}
+.images-list-item{
+    background-color: #FFFFFF;
 }
 .footer{
     background-color: var(--primary-black-color);
