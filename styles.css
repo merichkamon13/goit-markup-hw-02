@@ -126,7 +126,7 @@ body{
     color: var(--contacts-color);
 }
 .section-team{
-    color: #F4F4FD;
+    background-color: #F4F4FD;
 }
 .images-list-item{
     background-color: #FFFFFF;
