@@ -98,6 +98,7 @@ body{
 .button-lists-items:hover,
 .button-lists-items:focus{
     background-color: #404BBF;
+    color: #FFFFFF;
 }
 .secont-title{
     font-style: 'Roboto', sans-serif;
