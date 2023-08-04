@@ -134,8 +134,6 @@ body{
 }
 .footer{
     background-color: var(--primary-black-color);
-    width: 1440;
-    height: 312;
 }
 .logo-light{
     color: var(--second-white-color);
